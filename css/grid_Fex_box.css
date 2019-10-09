@@ -1,0 +1,107 @@
+header{
+  display:flex;
+  height: 110px;
+  position: relative;
+  background-image: url(../img/aluno.jpg);
+  background-repeat: no-repeat;
+  background-position-x:480px; 
+  background-position-y:-35px;
+}
+
+.cabecalho{
+  position: relative;
+  left: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.imagem{
+  position: relative;
+  left: 150px;
+}
+
+.titulo-1{
+  position: relative;
+  bottom: 10px;
+  
+}
+.titulo-2{
+  position: relative;
+  top: 15px;
+}
+
+.linha-1{
+  background-color: DodgerBlue;
+  height: 5px;
+}
+.linha{
+  background-color:rgb(189, 2, 2);
+  height: 5px;
+}
+
+
+.corpo{
+  height: 500px;
+  display: grid;
+  grid-template-columns: 650px auto ;
+  grid-template-rows: auto;
+}
+main{
+  display: flex;
+  flex-flow: column;
+  align-items: baseline;
+  background-color: LightGray;
+  border-radius:2%; 
+  margin: 20px;
+}
+.titulo-3{
+  position: relative;
+  left: 30px;
+  top: 30px;
+  width: 60px;
+}
+
+.form-1{
+  margin: 50px;
+}
+
+.controlo{
+	display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color:DodgerBlue;
+  font-size: 9px;
+  border: none;
+  cursor: pointer;
+}
+
+.controlo:hover{
+  background-color: rgb(255, 254, 254);
+  box-shadow: 3px 3px 3px rgba(14, 12, 12, 0.5);
+}
+
+input[type="text"],
+input[type="password"]{
+	color: black;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid rgb(119, 118, 118);
+  width: 100%;
+  outline: none;
+  background-color: LightGray;
+  margin-bottom: 30px;
+}
+
+aside{
+  background-color: LightGray;
+  border-radius:2%; 
+  margin: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: baseline;
+  background-color: LightGray;
+  border-radius:2%; 
+  margin: 20px;
+}
+.rodape{
+  height: 50px;
+}
