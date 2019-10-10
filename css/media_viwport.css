@@ -1,0 +1,52 @@
+@media(max-width:960px) {
+	.container{
+		width: 90%;
+	}
+}
+
+@media(max-width:500px){
+  .container header{
+    display: grid;
+    flex-wrap: wrap;
+    background-image: url(../img/aluno.jpg);
+    background-position-x: -1px;
+    position: relative;
+
+  }
+ h1{
+   font-size: 30px;
+ }
+ h2{
+  font-size: 10px;
+}
+.corpo{
+  display: flex;
+  flex-wrap: wrap;
+}
+	
+}
+
+@media(max-width:770px){
+  .container header{
+    display: grid;
+    flex-wrap: wrap;
+    background-image: url(../img/aluno.jpg);
+    background-position-x: -1px;
+    position: relative;
+
+  }
+ h1{
+   font-size: 30px;
+ }
+ h2{
+  font-size: 10px;
+}
+.corpo{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 600px;
+}
+	
+}
+
