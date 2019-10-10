@@ -11,7 +11,14 @@
     background-image: url(../img/aluno.jpg);
     background-position-x: -1px;
     position: relative;
+    width: 435px;
 
+  }
+  .linha{
+    width: 435px;
+  }
+  .linha-1{
+    width: 435px;
   }
  h1{
    font-size: 30px;
@@ -22,6 +29,14 @@
 .corpo{
   display: flex;
   flex-wrap: wrap;
+  width: 335px;
+
+}
+main{
+  width: 360px;
+}
+aside{
+  width: 360px;
 }
 	
 }
