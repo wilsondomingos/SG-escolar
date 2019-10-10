@@ -1,11 +1,15 @@
+
+
+/* Tudo sobre documento index 
+login user, administrador
+*/
 @media(max-width:960px) {
 	.container{
 		width: 90%;
 	}
 }
-
 @media(max-width:400px){
- 
+
    
   body{
     box-sizing: border-box;
@@ -52,8 +56,8 @@ aside{
 }
 	
 }
-
 @media(max-width:770px){
- 
 }
+
+/* Tudo sobre documento menu usuario*/
 

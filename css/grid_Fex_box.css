@@ -1,3 +1,8 @@
+
+
+/* Tudo sobre documento index 
+login user, administrador
+*/
 header{
   display:flex;
   height: 110px;
@@ -7,7 +12,6 @@ header{
   background-position-x:480px; 
   background-position-y:-35px;
 }
-
 .cabecalho{
   position: relative;
   left: 30px;
@@ -18,7 +22,6 @@ header{
   position: relative;
   left: 150px;
 }
-
 .titulo-1{
   position: relative;
   bottom: 10px;
@@ -28,7 +31,6 @@ header{
   position: relative;
   top: 15px;
 }
-
 .linha-1{
   background-color: DodgerBlue;
   height: 5px;
@@ -37,8 +39,6 @@ header{
   background-color:rgb(189, 2, 2);
   height: 5px;
 }
-
-
 .corpo{
   height: 500px;
   display: grid;
@@ -61,11 +61,9 @@ main{
   top: 30px;
   width: 60px;
 }
-
 .form-1{
   margin: 50px;
 }
-
 .controlo{
 	display: flex;
   justify-content: space-between;
@@ -75,12 +73,10 @@ main{
   border: none;
   cursor: pointer;
 }
-
 .controlo:hover{
   background-color: rgb(255, 254, 254);
   box-shadow: 3px 3px 3px rgba(14, 12, 12, 0.5);
 }
-
 input[type="text"],
 input[type="password"]{
 	color: black;
@@ -92,7 +88,6 @@ input[type="password"]{
   background-color: white;
   margin-bottom: 30px;
 }
-
 aside{
   background-color: white;
   border-radius:2%; 
@@ -106,4 +101,70 @@ aside{
 }
 .rodape{
   height: 50px;
+}
+
+
+/* Tudo sobre documento Menu usuario */
+
+.cabeçalho_menu_ususario{
+  height: 80px;
+  background-color: #363636;
+}
+
+.titulo-4{
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
+.titulo-3{
+  position: relative;
+  top: 5px;
+  left: 92px;
+}
+.conteudos{
+  background-color: #363636;
+}
+
+.nav_cabeçalho_menu_ususario{
+  height: 30px;
+  background-color: #ccc;
+  margin-left: 300px;
+  
+}
+ul{
+  margin: 0;
+}
+li{
+  display: inline;
+  margin-left:30px; 
+}
+
+.linha-4{
+  background-color: DodgerBlue;
+  height: 5px;
+  margin-left: 300px;
+
+}
+.linha-3{
+  background-color:rgb(189, 2, 2);
+  height: 5px;
+  margin-left: 300px;
+}
+
+.corpo_menu_ususario{
+  height: 600px;
+  display: grid;
+  grid-template-columns: 300px auto ;
+  grid-template-rows: auto;
+}
+
+.aside_menu_ususario{
+
+  background-color: #363636;
+  
+}
+
+.main_menu_ususario{
+  background-color: #fff;
+
 }
