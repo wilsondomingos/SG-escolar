@@ -5,9 +5,10 @@
 }
 
 @media(max-width:500px){
+   
   body{
-    width: 135px;
-    height: 100px;
+    box-sizing: border-box;
+    position: static;
   }
   .container header{
     display: grid;
@@ -20,10 +21,10 @@
 
   }
   .linha{
-    width: 435px;
+    width: 400px;
   }
   .linha-1{
-    width: 435px;
+    width: 400px;
   }
  h1{
    font-size: 30px;
@@ -32,44 +33,25 @@
   font-size: 10px;
 }
 .corpo{
-  display: flex;
-  flex-wrap: wrap;
-  width: 335px;
-  margin: 5px;
-
+ display: flex;
+ flex-wrap:wrap;
+ height: 900px; 
 }
+
 main{
-  width: 360px;
+  display: fixed;
+  width: 400px;
   margin: 3px;
 }
 aside{
-  width: 360px;
+  display: fixed;
+  width: 400px;
   margin: 3px;
 }
 	
 }
 
 @media(max-width:770px){
-  .container header{
-    display: grid;
-    flex-wrap: wrap;
-    background-image: url(../img/aluno.jpg);
-    background-position-x: -1px;
-    position: relative;
-
-  }
- h1{
-   font-size: 30px;
- }
- h2{
-  font-size: 10px;
-}
-.corpo{
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  width: 600px;
-}
-	
+ 
 }
 
