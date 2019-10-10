@@ -5,10 +5,13 @@
 }
 
 @media(max-width:400px){
+  html{
+    position: fixed;
+  }
    
   body{
     box-sizing: border-box;
-    position: static;
+    position: relative;
   }
   .container header{
     display: grid;
