@@ -5,6 +5,10 @@
 }
 
 @media(max-width:500px){
+  body{
+    width: 135px;
+    height: 100px;
+  }
   .container header{
     display: grid;
     flex-wrap: wrap;
@@ -12,6 +16,7 @@
     background-position-x: -1px;
     position: relative;
     width: 435px;
+    margin: 5px
 
   }
   .linha{
@@ -30,13 +35,16 @@
   display: flex;
   flex-wrap: wrap;
   width: 335px;
+  margin: 5px;
 
 }
 main{
   width: 360px;
+  margin: 3px;
 }
 aside{
   width: 360px;
+  margin: 3px;
 }
 	
 }
