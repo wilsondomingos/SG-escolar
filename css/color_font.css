@@ -3,6 +3,7 @@
 login user, administrador
 */
 h1{
+  
   color: black;
   font-size: 60px;
   font-weight: bold;
@@ -37,9 +38,12 @@ h3{
   font-style: italic;
 }
 a{
+  cursor: pointer;
   text-decoration: none;
-  padding: 4px 7px;
-  color:red; 
+  padding: 6px 10px;
+  color:red;
+  font-weight:bold;  
+  text-shadow: 1px 1px black;
 }
 
 a:hover{

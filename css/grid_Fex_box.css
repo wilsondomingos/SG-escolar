@@ -25,11 +25,18 @@ header{
 .titulo-1{
   position: relative;
   bottom: 10px;
-  
+  text-shadow: 1px 1px black;
 }
 .titulo-2{
+  text-shadow: 1px 1px black;
   position: relative;
   top: 15px;
+}
+.titulo-3{
+  text-shadow: 1px 1px black;
+  position: relative;
+  top: 5px;
+  left: 92px;
 }
 .linha-1{
   background-color: DodgerBlue;
@@ -55,12 +62,7 @@ main{
   margin: 7px;
   margin-right: 1px;
 }
-.titulo-3{
-  position: relative;
-  left: 30px;
-  top: 30px;
-  width: 60px;
-}
+
 .form-1{
   margin: 50px;
 }
@@ -107,19 +109,25 @@ aside{
 /* Tudo sobre documento Menu usuario */
 
 .cabeçalho_menu_ususario{
-  height: 80px;
+  height: 30px;
   background-color: #363636;
 }
 
 .titulo-4{
+  text-shadow: 4px 4px black;
   position: relative;
   bottom: 30px;
   left: 30px;
+  width: 10px;
 }
-.titulo-3{
+
+
+.titulo-0{
+
   position: relative;
-  top: 5px;
-  left: 92px;
+  left: 30px;
+  top: 30px;
+  width: 10px;
 }
 .conteudos{
   background-color: #363636;
@@ -152,7 +160,7 @@ li{
 }
 
 .corpo_menu_ususario{
-  height: 600px;
+  height: 200px;
   display: grid;
   grid-template-columns: 300px auto ;
   grid-template-rows: auto;
@@ -163,8 +171,36 @@ li{
   background-color: #363636;
   
 }
+hr{
+  margin: 0;
+}
+.sala{
+  border: 1px solid DodgerBlue;
+  height: 100px;
+  margin: 5px;
+}
+.turma{
+  border: 1px solid DodgerBlue;
+  height: 100px;
+  margin: 5px;
+}
+.periodo{
+  border: 1px solid DodgerBlue;
+  height: 100px;
+  margin: 5px;
+}
+.classe{
+  border: 1px solid DodgerBlue;
+  height: 100px;
+  margin: 5px;
+}
+
 
 .main_menu_ususario{
   background-color: #fff;
+  background-image: url(../img/sala.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
 
 }
