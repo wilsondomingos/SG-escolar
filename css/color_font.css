@@ -42,11 +42,18 @@ a{
   text-decoration: none;
   padding: 6px 10px;
   color:red;
-  font-weight:bold;  
+  font-weight:normal;  
   text-shadow: 1px 1px black;
+  font-size: 12px;
 }
 
 a:hover{
   background-color: royalblue;
   border-radius:15%;
+  opacity: 0.9;
+}
+
+.escola{
+  color: white;
+  text-decoration: underline;
 }
