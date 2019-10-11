@@ -12,6 +12,9 @@ header{
   background-position-x:480px; 
   background-position-y:-35px;
 }
+.container {
+  width: 100%;
+}
 .cabecalho{
   position: relative;
   left: 30px;
@@ -115,12 +118,12 @@ aside{
 
 .cabeçalho_menu_ususario{
   height: 30px;
-  background-color: #363636;
+
   opacity: 0.9;
 }
 
 .titulo-4{
-  text-shadow: 4px 4px black;
+  
   position: relative;
   bottom: 30px;
   left: 30px;
@@ -136,7 +139,7 @@ aside{
   width: 10px;
 }
 .conteudos{
-  background-color: #363636;
+  
 }
 
 .nav_cabeçalho_menu_ususario{
